@@ -3,6 +3,7 @@ De følgende emner som er valgt er:
 	- Clientside Programmering
 	- Database Programmering
 <-------------------------------------------------------------------------------------------------->
+
 Hjemmesiden skal ha en header.
 	- I headeren skal der stå "H1 Project"
 
