@@ -3,17 +3,19 @@ De følgende emner som er valgt er:
 	- Clientside Programmering
 	- Database Programmering
 <-------------------------------------------------------------------------------------------------->
+Hjemmesiden skal ha en header.
+	- I headeren skal der stå "H1 Project"
 
+Hjemmesiden skal ha en scroll funktion som viser hvor langt man er scrollet ned på siden.
+
+	- En progress bar som skifter farver efter hvor langt man scroller ned eller op.
+	
 Jeg laver en hjemmeside som har et sæt knapper med links til forskellige hjemmesider og tidligere opgave.
 
 	- Knap med link til Google.com
 	- Knap med link til LearnSpace.dk
 	- Knap med LInk til Github projektet
 	- Knap med link til tidligere opgave
-
-Hjemmesiden skal ha en scroll funktion som viser hvor langt man er scrollet ned på siden.
-
-	- En progress bar som skifter farver efter hvor langt man scroller ned eller op.
 
 Hjemmesiden indeholder også nogle billeder som ved tryk på en knap fjerner/Tilføjer billederne.
 
