@@ -1,4 +1,5 @@
-De følgende emner som er valgt er:	
+De følgende emner som er valgt er:
+
 	- Clientside Programmering
 	- Database Programmering
 <-------------------------------------------------------------------------------------------------->
