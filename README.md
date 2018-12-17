@@ -25,13 +25,13 @@ Jeg laver en hjemmeside som har et sæt knapper med links til forskellige hjemme
 Hjemmesiden indeholder også nogle billeder som ved tryk på en knap fjerner/Tilføjer billederne.
 
 	- Knap 1 = Fjern Billed 1.
-		- Knap 1 skal ha navnet = "Fjern (navn)"
+		- Knap 1 skal ha navnet = "Fjern ProgJoke1"
 	- Knap 2 = Tilføj Billed 1 igen.
-		- Knap 2 skal ha navnet = "Tilføj (navn)"
+		- Knap 2 skal ha navnet = "Tilføj ProgJoke1"
 	- Knap 3 = Fjern Billed 2.
-		- Knap 3 skal ha navnet = "Fjern (navn)"
+		- Knap 3 skal ha navnet = "Fjern ProgJoke2"
 	- Knap 4 = Tilføj Billed 2 igen.
-		- Knap 4 skal ha navnet = "Tilføj (navn)"
+		- Knap 4 skal ha navnet = "Tilføj ProgJoke2"
 
 Hjemmesiden skal også tage et billed og noget tekst fra en hjemmeside og tilføje til sig selv.
 	- Knap 1 = Skal vise billedet + tekst fra hjemmesiden.
