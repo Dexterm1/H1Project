@@ -17,8 +17,8 @@ Jeg laver en hjemmeside som har et sæt knapper med links til forskellige hjemme
 		- Knappen skal ha navnet = "Google"
 	- Knap med link til LearnSpace.dk
 		- Knappen skal ha navnet = "LearnSpace"
-	- Knap med Link til Github projektet
-		- Knappen skal ha navnet = "Github Project"
+	- Knap med Link til GitHub projektet
+		- Knappen skal ha navnet = "GitHub Project"
 	- Knap med link til Snake Project
 		- Knappen skal ha navnet = "Snake Project"
 
