@@ -31,9 +31,10 @@ Hjemmesiden skal ha en section hvor der står noget tekst i.
 I HeidiSQL skal der laves en database og en table.
 
 	- Database skal ha navnet = Diablo3
-	- Table skal ha navnet = GreaterRiftSolo
+	- Table 1 skal ha navnet = Hardcore
+	- Table 2 skal ha navnet = Softcore
 
-Table skal indeholde informationer som består af følgende:
+Table 1 og 2 skal indeholde informationer som består af følgende:
 
 	- id (int primary key auto_increment)
 	- Ranking (int)
