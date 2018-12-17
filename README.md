@@ -33,7 +33,9 @@ Hjemmesiden indeholder også nogle billeder som ved tryk på en knap fjerner/Til
 	- Knap 4 = Tilføj Billed 2 igen.
 		- Knap 4 skal ha navnet = "Tilføj (navn)"
 
-Hjemmesiden skal også tage et billed fra 1 hjemmeside og tilføje til sig selv.
+Hjemmesiden skal også tage et billed og noget tekst fra en hjemmeside og tilføje til sig selv.
+	- Knap 1 = Skal vise billedet + tekst fra hjemmesiden.
+		- Knappen skal ha navnet = "Today's Space Image"
 
 Hjemmesiden skal ha en section hvor der står noget tekst i.
 
