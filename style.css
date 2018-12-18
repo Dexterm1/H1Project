@@ -1,0 +1,39 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.line {
+    width: 100%;
+    height: 8px;
+    background: red;
+}
+
+.progressBar {
+    height: 8px;
+    background: green;
+    width: 0%;
+}
+
+.information {
+    padding: 90px 0;
+}
+
+.btn1 {
+    display: inline-block;
+    padding: 0 50px;
+}
+
+.btn2 {
+    display: inline-block;
+    padding: 0 50px;
+}
+
+img {
+    z-index: 1;
+    width: 35%;
+}
