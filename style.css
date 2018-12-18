@@ -19,7 +19,7 @@ h2 {
 
 .progressBar {
     height: 8px;
-    background: green;
+    background: rgb(54, 230, 54);
     width: 0%;
 }
 
@@ -29,7 +29,6 @@ h2 {
 
 img {
     width: 35%;
-    padding: 5px 0;
 }
 
 .btn1 {
