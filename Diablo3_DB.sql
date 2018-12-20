@@ -1,66 +1,65 @@
--- --------------------------------------------------------
--- Vært:                         127.0.0.1
--- Server-version:               10.1.37-MariaDB - mariadb.org binary distribution
--- ServerOS:                     Win32
--- HeidiSQL Version:             9.5.0.5196
--- --------------------------------------------------------
+/*CREATE TABLE season14h
+(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	Rank INT NOT NULL,
+	Hero TEXT NOT NULL,
+	Class TEXT NOT NULL,
+	GRIFT_SOLO INT NOT NULL,
+	created DATETIME DEFAULT CURRENT_TIMESTAMP,
+	modified DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);*/
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET NAMES utf8 */;
-/*!50503 SET NAMES utf8mb4 */;
-/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
-/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*INSERT INTO season14h(Rank, Hero, Class, GRIFT_SOLO) VALUES
+(1, "Bigjohnasty", "Crusader", 122),
+(2, "Micah", "Crusader", 121),
+(3, "Brad", "Crusader", 119),
+(4, "Bigjohnasty", "Crusader", 117),
+(5, "Brad", "Crusader", 115),
+(6, "Science", "Crusader", 115),
+(7, "Brad", "Crusader", 114),
+(8, "Nemesis", "Necromancer", 113),
+(9, "Science", "Crusader", 112),
+(10, "Shroozles", "Crusader", 112),
+(11, "Sleepwalker", "Wizard", 112),
+(12, "Sleepwalker", "Monk", 111),
+(13, "Krimpo", "Barbarian", 111),
+(14, "Brad", "Monk", 111),
+(15, "Ramboo", "Crusader", 110),
+(16, "Ibteolmyeonsotong-anham", "Crusader", 110),
+(17, "Gabber", "Barbarian", 110),
+(18, "Zdayj", "Crusader", 110),
+(19, "Gabber", "Crusader", 110),
+(20, "Sleepwalker", "Necromancer", 110);*/
 
--- Dumping data for table diablo3.hardcore: ~20 rows (approximately)
-/*!40000 ALTER TABLE `hardcore` DISABLE KEYS */;
-INSERT INTO `hardcore` (`id`, `Rank`, `Hero`, `Class`, `GRIFT_SOLO`, `created`, `modified`) VALUES
-	(1, 1, 'Teugsubudae', 'Crusader', 120, '2018-12-19 09:03:56', '2018-12-19 09:03:56'),
-	(2, 2, 'Dys', 'Wizard', 120, '2018-12-19 09:03:56', '2018-12-19 09:03:56'),
-	(3, 3, 'Dys', 'Necromancer', 120, '2018-12-19 09:03:56', '2018-12-19 09:03:56'),
-	(4, 4, 'Beobsin', 'Wizard', 119, '2018-12-19 09:03:56', '2018-12-19 09:03:56'),
-	(5, 5, 'Hendeuleikeu', 'Crusader', 119, '2018-12-19 09:03:56', '2018-12-19 09:03:56'),
-	(6, 6, 'Morbus', 'Crusader', 119, '2018-12-19 09:03:56', '2018-12-19 09:03:56'),
-	(7, 7, 'Barakuya', 'Barbarian', 119, '2018-12-19 09:03:56', '2018-12-19 09:03:56'),
-	(8, 8, 'Teugsubudae', 'Necromancer', 118, '2018-12-19 09:03:56', '2018-12-19 09:03:56'),
-	(9, 9, 'Hamer', 'Crusader', 118, '2018-12-19 09:03:56', '2018-12-19 09:03:56'),
-	(10, 10, 'Haneul-iappa', 'Crusader', 118, '2018-12-19 09:03:56', '2018-12-19 09:03:56'),
-	(11, 11, 'Barakuya', 'Barbarian', 118, '2018-12-19 09:03:56', '2018-12-19 09:03:56'),
-	(12, 12, 'Arthur', 'Wizard', 118, '2018-12-19 09:03:56', '2018-12-19 09:03:56'),
-	(13, 13, 'Nero', 'Wizard', 117, '2018-12-19 09:03:56', '2018-12-19 09:03:56'),
-	(14, 14, 'Jopnarojyeaai', 'Crusader', 117, '2018-12-19 09:03:56', '2018-12-19 09:03:56'),
-	(15, 15, 'Thefivebooks', 'Necromancer', 117, '2018-12-19 09:03:56', '2018-12-19 09:03:56'),
-	(16, 16, 'Keunbyeol', 'Necromancer', 117, '2018-12-19 09:03:56', '2018-12-19 09:03:56'),
-	(17, 17, 'Syd', 'Crusader', 117, '2018-12-19 09:03:56', '2018-12-19 09:03:56'),
-	(18, 18, 'Keunbyeol', 'Necromancer', 116, '2018-12-19 09:03:56', '2018-12-19 09:03:56'),
-	(19, 19, 'Nero', 'Monk', 116, '2018-12-19 09:03:56', '2018-12-19 09:03:56'),
-	(20, 20, 'Dodohansadanjang', 'Crusader', 116, '2018-12-19 09:03:56', '2018-12-19 09:03:56');
-/*!40000 ALTER TABLE `hardcore` ENABLE KEYS */;
+/*CREATE TABLE season14s
+(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	Rank INT NOT NULL,
+	Hero TEXT NOT NULL,
+	Class TEXT NOT NULL,
+	GRIFT_SOLO INT NOT NULL,
+	created DATETIME DEFAULT CURRENT_TIMESTAMP,
+	modified DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);*/
 
--- Dumping data for table diablo3.softcore: ~20 rows (approximately)
-/*!40000 ALTER TABLE `softcore` DISABLE KEYS */;
-INSERT INTO `softcore` (`id`, `Rank`, `Hero`, `Class`, `GRIFT_SOLO`, `created`, `modified`) VALUES
-	(1, 1, 'Residuals', 'Crusader', 126, '2018-12-19 10:08:03', '2018-12-19 10:08:03'),
-	(2, 2, 'Mittens', 'Wizard', 126, '2018-12-19 10:08:03', '2018-12-19 10:08:03'),
-	(3, 3, 'Seukaiwokeo', 'Crusader', 126, '2018-12-19 10:08:03', '2018-12-19 10:08:03'),
-	(4, 4, 'Hiteu', 'Necromancer', 124, '2018-12-19 10:08:03', '2018-12-19 10:08:03'),
-	(5, 5, 'Tobs', 'Crusader', 124, '2018-12-19 10:08:03', '2018-12-19 10:08:03'),
-	(6, 6, 'Tigerlager', 'Crusader', 124, '2018-12-19 10:08:03', '2018-12-19 10:08:03'),
-	(7, 7, 'Gregpacker', 'Crusader', 123, '2018-12-19 10:08:03', '2018-12-19 10:08:03'),
-	(8, 8, 'Jin0', 'Crusader', 123, '2018-12-19 10:08:03', '2018-12-19 10:08:03'),
-	(9, 9, 'Buke er xi', 'Crusader', 123, '2018-12-19 10:08:03', '2018-12-19 10:08:03'),
-	(10, 10, 'Icy', 'Necromancer', 123, '2018-12-19 10:08:03', '2018-12-19 10:08:03'),
-	(11, 11, 'Donaga', 'Crusader', 122, '2018-12-19 10:08:03', '2018-12-19 10:08:03'),
-	(12, 12, 'Beobsun-ing', 'Wizard', 122, '2018-12-19 10:08:03', '2018-12-19 10:08:03'),
-	(13, 13, 'Firefly', 'Wizard', 122, '2018-12-19 10:08:03', '2018-12-19 10:08:03'),
-	(14, 14, 'Rookie', 'Crusader', 122, '2018-12-19 10:08:03', '2018-12-19 10:08:03'),
-	(15, 15, 'Earlykim', 'Crusader', 122, '2018-12-19 10:08:03', '2018-12-19 10:08:03'),
-	(16, 16, 'Gimttugi', 'Wizard', 121, '2018-12-19 10:08:03', '2018-12-19 10:08:03'),
-	(17, 17, 'Lobo', 'Wizard', 121, '2018-12-19 10:08:03', '2018-12-19 10:08:03'),
-	(18, 18, 'Jayjay', 'Crusader', 121, '2018-12-19 10:08:03', '2018-12-19 10:08:03'),
-	(19, 19, 'Dusin', 'Crusader', 121, '2018-12-19 10:08:03', '2018-12-19 10:08:03'),
-	(20, 20, 'Footwork', 'Barbarian', 121, '2018-12-19 10:08:03', '2018-12-19 10:08:03');
-/*!40000 ALTER TABLE `softcore` ENABLE KEYS */;
-
-/*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
-/*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*INSERT INTO season14s(Rank, Hero, Class, GRIFT_SOLO) VALUES
+(1, "Cleaveland", "Wizard", 122),
+(2, "Steroidz", "Crusader", 122),
+(3, "Luckytiger", "Necromancer", 121),
+(4, "Immortalking", "Crusader", 120),
+(5, "Habec", "Crusader", 120),
+(6, "Sin-eiji", "Necromancer", 120),
+(7, "Mastah", "Barbarian", 120),
+(8, "Qqenko", "Crusader", 120),
+(9, "Ezd", "Crusader", 120),
+(10, "Tae", "Crusader", 120),
+(11, "Juo", "Crusader", 120),
+(12, "Martencar", "Crusader", 119),
+(13, "Blueberryz", "Crusader", 119),
+(14, "Dnr", "Crusader", 119),
+(15, "Google337", "Crusader", 119),
+(16, "Badeath", "Necromancer", 119),
+(17, "Badeath", "Crusader", 119),
+(18, "Habec", "Necromancer", 118),
+(19, "Illuminatus", "Crusader", 118),
+(20, "Mastah", "Monk", 118);*/
