@@ -1,4 +1,15 @@
-/*CREATE TABLE season14h
+/*CREATE TABLE season12h
+(
+	id INT PRIMARY KEY AUTO_INCREMENT,
+	Rank INT NOT NULL,
+	Hero TEXT NOT NULL,
+	Class TEXT NOT NULL,
+	GRIFT_SOLO INT NOT NULL,
+	created DATETIME DEFAULT CURRENT_TIMESTAMP,
+	modified DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+CREATE TABLE season12s
 (
 	id INT PRIMARY KEY AUTO_INCREMENT,
 	Rank INT NOT NULL,
@@ -9,57 +20,46 @@
 	modified DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );*/
 
-/*INSERT INTO season14h(Rank, Hero, Class, GRIFT_SOLO) VALUES
-(1, "Bigjohnasty", "Crusader", 122),
-(2, "Micah", "Crusader", 121),
-(3, "Brad", "Crusader", 119),
-(4, "Bigjohnasty", "Crusader", 117),
-(5, "Brad", "Crusader", 115),
-(6, "Science", "Crusader", 115),
-(7, "Brad", "Crusader", 114),
-(8, "Nemesis", "Necromancer", 113),
-(9, "Science", "Crusader", 112),
-(10, "Shroozles", "Crusader", 112),
-(11, "Sleepwalker", "Wizard", 112),
-(12, "Sleepwalker", "Monk", 111),
-(13, "Krimpo", "Barbarian", 111),
-(14, "Brad", "Monk", 111),
-(15, "Ramboo", "Crusader", 110),
-(16, "Ibteolmyeonsotong-anham", "Crusader", 110),
-(17, "Gabber", "Barbarian", 110),
-(18, "Zdayj", "Crusader", 110),
-(19, "Gabber", "Crusader", 110),
-(20, "Sleepwalker", "Necromancer", 110);*/
+INSERT INTO season12h(Rank, Hero, Class, GRIFT_SOLO) VALUES
+(1, "Ouroboros", "Barbarian", 112),
+(2, "Ouroboros", "Crusader", 112),
+(3, "Todos", "Necromancer", 110),
+(4, "Cav", "Barbarian", 110),
+(5, "Cuthalion", "Wizard", 109),
+(6, "Elyzael", "Crusader", 109),
+(7, "Lazyncrazy", "Wizard", 109),
+(8, "Magangsin", "Wizard", 109),
+(9, "Fiammiferina", "Wizard", 108),
+(10, "Nihlatak", "Crusader", 108),
+(11, "Ripperi", "Crusader", 108),
+(12, "Rik", "Wizard", 108),
+(13, "Pewpew", "Necromancer", 108),
+(14, "Pphill", "Monk", 108),
+(15, "Vapo", "Crusader", 108),
+(16, "Chencliff", "Crusader", 108),
+(17, "Hu5ky", "Crusader", 107),
+(18, "Deconina", "Wizard", 107),
+(19, "Halogseonjang", "Crusader", 107),
+(20, "Cyphol", "Barbarian", 107);
 
-/*CREATE TABLE season14s
-(
-	id INT PRIMARY KEY AUTO_INCREMENT,
-	Rank INT NOT NULL,
-	Hero TEXT NOT NULL,
-	Class TEXT NOT NULL,
-	GRIFT_SOLO INT NOT NULL,
-	created DATETIME DEFAULT CURRENT_TIMESTAMP,
-	modified DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-);*/
-
-/*INSERT INTO season14s(Rank, Hero, Class, GRIFT_SOLO) VALUES
-(1, "Cleaveland", "Wizard", 122),
-(2, "Steroidz", "Crusader", 122),
-(3, "Luckytiger", "Necromancer", 121),
-(4, "Immortalking", "Crusader", 120),
-(5, "Habec", "Crusader", 120),
-(6, "Sin-eiji", "Necromancer", 120),
-(7, "Mastah", "Barbarian", 120),
-(8, "Qqenko", "Crusader", 120),
-(9, "Ezd", "Crusader", 120),
-(10, "Tae", "Crusader", 120),
-(11, "Juo", "Crusader", 120),
-(12, "Martencar", "Crusader", 119),
-(13, "Blueberryz", "Crusader", 119),
-(14, "Dnr", "Crusader", 119),
-(15, "Google337", "Crusader", 119),
-(16, "Badeath", "Necromancer", 119),
-(17, "Badeath", "Crusader", 119),
-(18, "Habec", "Necromancer", 118),
-(19, "Illuminatus", "Crusader", 118),
-(20, "Mastah", "Monk", 118);*/
+INSERT INTO season12s(Rank, Hero, Class, GRIFT_SOLO) VALUES
+(1, "Residuals", "Crusader", 125),
+(2, "Cornbread", "Crusader", 124),
+(3, "Psycho", "Crusader", 123),
+(4, "Lumines", "Crusader", 123),
+(5, "Duder", "Crusader", 123),
+(6, "Julien", "Wizard", 122),
+(7, "Azyf", "Wizard", 122),
+(8, "Gangjiyeong", "Crusader", 121),
+(9, "Lame", "Crusader", 121),
+(10, "Ru yåo zhi måli", "Crusader", 121),
+(11, "Quick", "Barbarian", 121),
+(12, "Quick", "Crusader", 121),
+(13, "Flateric", "Crusader", 120),
+(14, "Vaccaria", "Wizard", 120),
+(15, "Mrangryg", "Crusader", 120),
+(16, "Peter", "Crusader", 120),
+(17, "Jklee", "Crusader", 120),
+(18, "Wstsitm58048", "Necromancer", 120),
+(19, "Zyrram", "Crusader", 120),
+(20, "Kelthor", "Crusader", 120);
