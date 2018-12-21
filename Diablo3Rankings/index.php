@@ -9,7 +9,19 @@
         </div>
 
         <div class="linkSample">
-            <p><a class="disable" href="./index.php">Season 15</a> | <a href="./index2.php">Season 14</a> | </p>
+            <p>
+                <a class="disable" href="./index.php">Season 15</a>
+                 | 
+                <a href="./index2.php">Season 14</a>
+                 | 
+                <a href="./index3.php">Season 13</a>
+                 | 
+                <a href="./index4.php">Season 12</a>
+                 | 
+                <a href="./index5.php">Season 11</a>
+                 | 
+                <a href="./index6.php">Season 10</a>
+            </p>
         </div>
     </body>
 </html>

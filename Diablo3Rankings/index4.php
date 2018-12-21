@@ -5,18 +5,18 @@
     </head>
     <body>
         <div>
-            <h1>Diablo Leaderboards - Greater Rift Solo, Season 14</h1>
+            <h1>Diablo Leaderboards - Greater Rift Solo, Season 12</h1>
         </div>
 
         <div class="linkSample">
             <p>
                 <a href="./index.php">Season 15</a>
                  | 
-                <a class="disable" href="./index2.php">Season 14</a>
+                <a href="./index2.php">Season 14</a>
                  | 
                 <a href="./index3.php">Season 13</a>
                  | 
-                <a href="./index4.php">Season 12</a>
+                <a class="disable" href="./index4.php">Season 12</a>
                  | 
                 <a href="./index5.php">Season 11</a>
                  | 
@@ -38,11 +38,11 @@
         die("Connection failed: " . $conn->connection_error);
     }
 
-    $S14H = "SELECT Rank, Hero, Class, GRIFT_SOLO FROM season14h";
-    $S14S = "SELECT Rank, Hero, Class, GRIFT_SOLO FROM season14s";
+    $S12H = "SELECT Rank, Hero, Class, GRIFT_SOLO FROM season12h";
+    $S12S = "SELECT Rank, Hero, Class, GRIFT_SOLO FROM season12s";
 
-    $S14HResult = $conn->query($S14H);
-    $S14SResult = $conn->query($S14S);
+    $S12HResult = $conn->query($S12H);
+    $S12SResult = $conn->query($S12S);
 ?>
 
 <table>
@@ -50,13 +50,13 @@
         <td class="TableSetup">
             <?php
                 echo ("Hardcore");
-                if ($S14HResult->num_rows > 0) {
+                if ($S12HResult->num_rows > 0) {
                     echo ("<table>". "<tr>". "<th>". "Rank". "<br>". "</th>");
                     echo ("<th>". "Hero". "<br>". "</th>");
                     echo ("<th>". "Class". "<br>". "</th>");
                     echo ("<th>". "GRift Solo". "<br>". "</th>". "</tr>");
 
-                        while($column = $S14HResult->fetch_assoc()) {
+                        while($column = $S12HResult->fetch_assoc()) {
                             echo ("<tr>". "<th>". $column["Rank"]. "<br>". "</th>");
                             echo ("<td>". $column["Hero"]. "<br>". "</td>");
                             echo ("<td>". $column["Class"]. "<br>". "</td>");
@@ -73,13 +73,13 @@
         <td class="TableSetup">
             <?php
                 echo ("Softcore");
-                if ($S14SResult->num_rows > 0) {
+                if ($S12SResult->num_rows > 0) {
                     echo ("<table>". "<tr>". "<th>". "Rank". "<br>". "</th>");
                     echo ("<th>". "Hero". "<br>". "</th>");
                     echo ("<th>". "Class". "<br>". "</th>");
                     echo ("<th>". "GRift Solo". "<br>". "</th>". "</tr>");
 
-                        while($column = $S14SResult->fetch_assoc()) {
+                        while($column = $S12SResult->fetch_assoc()) {
                             echo ("<tr>". "<th>". $column["Rank"]. "<br>". "</th>");
                             echo ("<td>". $column["Hero"]. "<br>". "</td>");
                             echo ("<td>". $column["Class"]. "<br>". "</td>");
