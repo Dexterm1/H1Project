@@ -1,0 +1,56 @@
+html {
+    background-color: rgb(44, 43, 43);
+}
+
+h1 {
+    color: dimgray;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    background: rgb(139, 138, 138);
+    color: black;
+}
+
+p {
+    color: white;
+    border: 1px solid gray;
+}
+
+td {
+    border: 1px solid whitesmoke;
+    color: white;
+}
+
+th {
+    border: 1px solid whitesmoke;
+    color: white;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Classes */
+.disable {
+    background: rgb(139, 138, 138);
+    color: black;
+    pointer-events: none;
+    font-weight: bold; 
+}
+
+.linkSample {
+    margin: auto;
+    width: 50%;
+    background-color: rgb(27, 25, 25);
+}
+
+.TableSetup {
+    border: none;
+    padding: 50px;
+}
